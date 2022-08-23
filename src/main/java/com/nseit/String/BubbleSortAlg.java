@@ -1,5 +1,9 @@
 package com.nseit.String;
 
-public class BubbleSortAlg {
-    public int[] sort(int[] numbers){return numbers;}
+
+public class BubbleSortAlg implements SortAlg {
+
+    public int[] sort(int[] numbers) {
+        return numbers;
+    }
 }
